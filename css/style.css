@@ -350,12 +350,6 @@ body {
     background: #009b9c;
 }
 
-
-/*footer section */
-
-
-/* Footer Styling */
-
 .footer {
     background: #222;
     color: #fff;
@@ -371,7 +365,6 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px;
-    /* Adds spacing between icons */
     margin-bottom: 15px;
 }
 
@@ -382,18 +375,11 @@ body {
     display: flex;
     align-items: center;
     gap: 5px;
-    /* Space between icon and text */
 }
-
-
-/* Adjust Icon Size */
 
 .nav-links i {
     font-size: 18px;
 }
-
-
-/* Center Social Icons */
 
 .social-icons {
     display: flex;
@@ -418,16 +404,14 @@ body {
     background: #f39c12;
 }
 
-
-/* Align Footer Bottom Text to Right */
-
 .footer-bottom {
+    width: 100%;
     text-align: right;
     padding: 10px 20px;
     position: absolute;
     bottom: 10px;
     right: 10px;
-    font-size: 14px;
+    font-size: 10px;
 }
 
 @keyframes bounce {
